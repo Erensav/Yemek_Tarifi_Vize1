@@ -19,10 +19,10 @@
 </head>
 <body>
     <form id="form1" runat="server">
-        <div style="height: 150px; width: 700px; margin-left: 300px; background-color: #CCFFCC">
+        <div style="height: 150px; width: 700px; margin-left: 300px; background-color: #ce7171">
         </div>
         <div style="margin-left: 300px; width: 700px; height: 20px;">&nbsp;</div>
-        <div style="margin-left: 300px; width: 700px; height: 25px; background-color: #CCFFCC">
+        <div style="margin-left: 300px; width: 700px; height: 25px; background-color: #ce7171">
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style2"><a href="Anasayfa.aspx">ANASAYFA </a></td>
@@ -34,12 +34,19 @@
             </table>
         </div>
         <div style="margin-left: 300px; width: 700px; height: 20px;">&nbsp;</div>
-        <div style="margin-left: 300px; width: 200px; height: 200px; background-color: #CCFFCC">
-            <div style="margin-left: 250px; height: 350px; width: 450px; background-color: #CCFFCC">
+        <div style="margin-left: 300px; width: 700px; height: 300px;">
+
+            <div style="width: 200px; float: left; height: 100px; margin-left: 0px; background-color: #ce7171"></div>
+            <div style="width: 450px; float: left; height: 300px; margin-left: 50px; background-color: #ce7171">
                 <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
                 </asp:ContentPlaceHolder>
+
             </div>
+
+
+
         </div>
+
     </form>
 </body>
 </html>
