@@ -61,7 +61,7 @@
         <tr>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="btntarifoner" runat="server" CssClass="auto-style6" Text="Tarifi Oner" Width="150px" />
+                <asp:Button ID="btntarifoner" runat="server" CssClass="auto-style6" Text="Tarifi Oner" Width="150px" OnClick="btntarifoner_Click" />
             </td>
         </tr>
     </table>
