@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.UI;
 using System.Web.UI.WebControls;
 using System.Data.SqlClient;
+
 namespace Yemek_Tarifi_Vize1
 {
     public partial class YemekDetay : System.Web.UI.Page
@@ -24,6 +25,7 @@ namespace Yemek_Tarifi_Vize1
                 lbl3.Text = dr[0].ToString();
 
             }
+            dr.Close();
             bgl.baglanti().Close();
 
 
@@ -34,6 +36,18 @@ namespace Yemek_Tarifi_Vize1
             DataList2.DataSource = dr2;
             DataList2.DataBind();
 
+
+        }
+
+        protected void btnyorumyap_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut3 = new SqlCommand("insert into tbl_yorumlar (YorumAdSoyad,YorumMail,Yorumicerik,Yemekid) values (@p1,@p2,@p3,@p4)",bgl.baglanti());
+            komut3.Parameters.AddWithValue("@p1", TextBox11.Text);
+            komut3.Parameters.AddWithValue("@p2", TextBox22.Text);
+            komut3.Parameters.AddWithValue("@p3", TextBox33.Text);
+            komut3.Parameters.AddWithValue("@p4", yemekid);
+            komut3.ExecuteNonQuery();
+            bgl.baglanti() .Close();
 
         }
     }

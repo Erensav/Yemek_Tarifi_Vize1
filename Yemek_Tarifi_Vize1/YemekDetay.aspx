@@ -7,6 +7,20 @@
         .auto-style4 {
             font-size: x-small;
         }
+        .auto-style5 {
+            margin-left: 40px;
+        }
+        .auto-style6 {
+            text-align: right;
+        }
+        .auto-style7 {
+            text-align: right;
+            height: 134px;
+        }
+        .auto-style8 {
+            height: 134px;
+            margin-left: 40px;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -30,4 +44,43 @@
             </table>
         </ItemTemplate>
     </asp:DataList>
+    <br />
+    <div>Yorum Yapma Panali</div>
+    <asp:Panel ID="Panel1" runat="server">
+        <table class="auto-style1">
+            <tr>
+                <td>&nbsp;</td>
+                <td>&nbsp;</td>
+            </tr>
+            <tr>
+                <td class="auto-style6"><strong>Ad Soyad:</strong></td>
+                <td class="auto-style5">
+                    <asp:TextBox ID="TextBox11" runat="server" Height="20px" Width="200px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style6"><strong>Mail:</strong></td>
+                <td class="auto-style5">
+                    <asp:TextBox ID="TextBox22" runat="server" Height="20px" Width="200px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td class="auto-style7"><strong>Yorumunuz:</strong></td>
+                <td class="auto-style8">
+                    <asp:TextBox ID="TextBox33" runat="server" Height="100px" TextMode="MultiLine" Width="200px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="auto-style5">
+                    <asp:Button ID="btnyorumyap" runat="server" OnClick="btnyorumyap_Click" Text="Yorum Yap" Width="200px" />
+                </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="auto-style5">&nbsp;</td>
+            </tr>
+        </table>
+    </asp:Panel>
+
 </asp:Content>
