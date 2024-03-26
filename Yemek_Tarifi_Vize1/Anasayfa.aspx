@@ -10,14 +10,14 @@
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
-    <asp:DataList ID="DataList2" runat="server">
+    <asp:DataList ID="DataList2" runat="server" Width="446px">
         <ItemTemplate>
             <table class="auto-style1">
                 <tr>
                     <td><strong>
 
 
-                       <a href="YemekDetay.aspx?Yemekid=3"> <asp:Label ID="Label3" runat="server" CssClass="auto-style3" Text='<%# Eval("YemekAd") %>'></asp:Label>
+                       <a href="YemekDetay.aspx?Yemekid=<%#Eval("Yemekid") %>"> <asp:Label ID="Label3" runat="server" CssClass="auto-style3" Text='<%# Eval("YemekAd") %>'></asp:Label>
                         </a></strong></td>
 
 
