@@ -5,6 +5,9 @@
 <html>
 <head runat="server">
     <title></title>
+
+    <link href="StyleSheet.css" rel="stylesheet" />
+
     <asp:ContentPlaceHolder ID="head" runat="server">
     </asp:ContentPlaceHolder>
     <style type="text/css">
@@ -14,6 +17,9 @@
 
         .auto-style2 {
             text-align: center;
+            font-weight: bold;
+            background-color: #eea4a4;
+            height: 39px;
         }
     </style>
 </head>
@@ -22,7 +28,7 @@
         <div style="height: 150px; width: 700px; margin-left: 300px; background-color: #ce7171">
         </div>
         <div style="margin-left: 300px; width: 700px; height: 20px;">&nbsp;</div>
-        <div style="margin-left: 300px; width: 700px; height: 25px; background-color: #ce7171">
+        <div style="margin-left: 300px; width: 700px; height: 40px; background-color: #fff">
             <table class="auto-style1">
                 <tr>
                     <td class="auto-style2"><a href="Anasayfa.aspx">ANASAYFA </a></td>
