@@ -25,6 +25,16 @@ namespace Yemek_Tarifi_Vize1
 
             }
             bgl.baglanti().Close();
+
+
+            // Yemek Listeli Yorumlar
+            SqlCommand komut2 = new SqlCommand("Select * From tbl_yorumlar where Yemekid=@p2",bgl.baglanti());
+            komut2.Parameters.AddWithValue("@p2", yemekid);
+            SqlDataReader dr2 = komut2.ExecuteReader();
+            DataList2.DataSource = dr2;
+            DataList2.DataBind();
+
+
         }
     }
 }
