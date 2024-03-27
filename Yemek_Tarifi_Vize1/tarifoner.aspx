@@ -25,19 +25,19 @@
         <tr>
             <td class="auto-style3">Tarif Ad:</td>
             <td>
-                <asp:TextBox ID="TxtTarifad" runat="server" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="TxtTarifad" runat="server" Width="250px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style3">Malzemeler</td>
             <td>
-                <asp:TextBox ID="txtTarifmalzeme" runat="server" Height="80px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="txtTarifmalzeme" runat="server" Height="80px" TextMode="MultiLine" Width="250px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style4">Yapilis:</td>
             <td class="auto-style5">
-                <asp:TextBox ID="txtTarifyapilis" runat="server" Height="150px" TextMode="MultiLine" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="txtTarifyapilis" runat="server" Height="150px" TextMode="MultiLine" Width="250px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
@@ -49,19 +49,19 @@
         <tr>
             <td class="auto-style3">Tarif Oneren:</td>
             <td>
-                <asp:TextBox ID="txtTarifoneren" runat="server" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="txtTarifoneren" runat="server" Width="250px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td class="auto-style3">Mail Adresi:</td>
             <td>
-                <asp:TextBox ID="txtTarifmail" runat="server" TextMode="Email" Width="250px"></asp:TextBox>
+                <asp:TextBox ID="txtTarifmail" runat="server" TextMode="Email" Width="250px" CssClass="tb5"></asp:TextBox>
             </td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             <td>
-                <asp:Button ID="btntarifoner" runat="server" CssClass="auto-style6" Text="Tarifi Oner" Width="150px" OnClick="btntarifoner_Click" />
+                <asp:Button ID="btntarifoner" runat="server" CssClass="fb8" Text="Tarifi Oner" Width="150px" OnClick="btntarifoner_Click" />
             </td>
         </tr>
     </table>

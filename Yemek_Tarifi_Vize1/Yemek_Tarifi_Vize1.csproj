@@ -128,6 +128,7 @@
     <Content Include="gununyemegi.aspx" />
     <Content Include="hakkimizda.aspx" />
     <Content Include="iletisim.aspx" />
+    <Content Include="kullanici.css" />
     <Content Include="resimler\download.png" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
