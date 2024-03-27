@@ -18,31 +18,31 @@
     <tr>
         <td>Ad Soyad:</td>
         <td>
-            <asp:TextBox ID="TextBox1" runat="server" CssClass="tb5"></asp:TextBox>
+            <asp:TextBox ID="txtgonderen" runat="server" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td>Mail Adresiniz:</td>
         <td>
-            <asp:TextBox ID="TextBox2" runat="server" CssClass="tb5"></asp:TextBox>
+            <asp:TextBox ID="txtmail" runat="server" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td>Konu:</td>
         <td>
-            <asp:TextBox ID="TextBox3" runat="server" CssClass="tb5"></asp:TextBox>
+            <asp:TextBox ID="txtbaslik" runat="server" CssClass="tb5"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td>Mesaj:</td>
         <td>
-            <asp:TextBox ID="TextBox4" runat="server" CssClass="tb5" Height="150px" TextMode="MultiLine"></asp:TextBox>
+            <asp:TextBox ID="txtmesaj" runat="server" CssClass="tb5" Height="150px" TextMode="MultiLine"></asp:TextBox>
         </td>
     </tr>
     <tr>
         <td>&nbsp;</td>
         <td>
-            <asp:Button ID="Mesajgonder" runat="server" Text="GONDER" Width="168px" CssClass="auto-style4" />
+            <asp:Button ID="Mesajgonder" runat="server" Text="GONDER" Width="168px" CssClass="fb8" OnClick="Mesajgonder_Click" />
         </td>
     </tr>
 </table>
