@@ -128,8 +128,11 @@
     <Content Include="Global.asax" />
     <Content Include="gununyemegi.aspx" />
     <Content Include="hakkimizda.aspx" />
+    <Content Include="icon\delete.png" />
+    <Content Include="icon\update.png" />
     <Content Include="iletisim.aspx" />
     <Content Include="KategoriDetay.aspx" />
+    <Content Include="Kategoriler.aspx" />
     <Content Include="kullanici.css" />
     <Content Include="resimler\blog.jpg" />
     <Content Include="resimler\download.jpg" />
@@ -274,6 +277,13 @@
     </Compile>
     <Compile Include="KategoriDetay.aspx.designer.cs">
       <DependentUpon>KategoriDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Kategoriler.aspx.cs">
+      <DependentUpon>Kategoriler.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Kategoriler.aspx.designer.cs">
+      <DependentUpon>Kategoriler.aspx</DependentUpon>
     </Compile>
     <Compile Include="Kullanici.Master.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
