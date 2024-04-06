@@ -94,13 +94,13 @@
             <tr>
                 <td>Kategori Icon:</td>
                 <td>
-                    <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
+                    <asp:FileUpload ID="FileUpload1" runat="server" />
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
                 <td>
-                    <asp:Button ID="Button5" runat="server" CssClass="fb8" Text="EKLE" />
+                    <asp:Button ID="btnekle" runat="server" CssClass="fb8" OnClick="btnekle_Click" Text="EKLE" />
                 </td>
             </tr>
         </table>

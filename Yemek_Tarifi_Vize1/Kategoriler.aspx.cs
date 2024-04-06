@@ -41,5 +41,13 @@ namespace Yemek_Tarifi_Vize1
         {
             Panel4.Visible = false;
         }
+
+        protected void btnekle_Click(object sender, EventArgs e)
+        {
+            SqlCommand komut = new SqlCommand("insert into tbl_kategoriler (KategoriAd) values (@p1)",bgl.baglanti());
+            komut.Parameters.AddWithValue("@p1", TextBox1.Text);
+            komut.ExecuteNonQuery();
+            bgl.baglanti().Close();
+        }
     }
 }
