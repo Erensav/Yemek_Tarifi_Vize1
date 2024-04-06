@@ -4,10 +4,10 @@
     .auto-style3 {
         font-size: large;
     }
-        .auto-style4 {
-            margin-left: 37px;
-        }
-    </style>
+    .auto-style4 {
+        margin-left: 37px;
+    }
+</style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <strong><span class="auto-style3">MESAJ PANELI</span></strong><table class="auto-style1">
