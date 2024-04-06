@@ -131,7 +131,9 @@
     <Content Include="KategoriDetay.aspx" />
     <Content Include="kullanici.css" />
     <Content Include="resimler\blog.jpg" />
+    <Content Include="resimler\download.jpg" />
     <Content Include="resimler\download.png" />
+    <Content Include="resimler\images.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
