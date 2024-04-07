@@ -33,14 +33,14 @@
         <tr>
             <td>Kategori:</td>
             <td>
-                <asp:DropDownList ID="DropDownList1" runat="server" Width="250px">
+                <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" Width="250px">
                 </asp:DropDownList>
             </td>
         </tr>
         <tr>
             <td>&nbsp;</td>
             <td class="auto-style3">
-                <asp:Button ID="Button1" runat="server" Text="Guncelle" />
+                <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Guncelle" />
             </td>
         </tr>
     </table>

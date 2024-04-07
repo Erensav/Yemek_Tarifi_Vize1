@@ -16,7 +16,7 @@ namespace Yemek_Tarifi_Vize1
             Panel2.Visible= false;
             Panel4.Visible= false;
 
-            if (Page.IsPostBack)
+            if (Page.IsPostBack == false)
             {
                 SqlCommand komut2 = new SqlCommand("Select * From tbl_kategoriler", bgl.baglanti());
                 SqlDataReader dr2 = komut2.ExecuteReader();
@@ -31,10 +31,7 @@ namespace Yemek_Tarifi_Vize1
             SqlCommand komut = new SqlCommand("Select * From tbl_yemekler", bgl.baglanti());
             SqlDataReader dr = komut.ExecuteReader();
             DataList1.DataSource = dr;
-            DataList1.DataBind();
-
-
-            
+            DataList1.DataBind();            
         }
 
         protected void Button1_Click(object sender, EventArgs e)
