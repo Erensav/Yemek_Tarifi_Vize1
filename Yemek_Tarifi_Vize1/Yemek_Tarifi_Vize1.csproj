@@ -170,6 +170,7 @@
     <Content Include="Kullanici.Master" />
     <Content Include="YemekDetay.aspx" />
     <Content Include="Admin.Master" />
+    <Content Include="YemekDuzenle.aspx" />
     <Content Include="Yemekler.aspx" />
     <None Include="Scripts\jquery-3.4.1.intellisense.js" />
     <Content Include="Scripts\jquery-3.4.1.js" />
@@ -323,6 +324,13 @@
     </Compile>
     <Compile Include="YemekDetay.aspx.designer.cs">
       <DependentUpon>YemekDetay.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="YemekDuzenle.aspx.cs">
+      <DependentUpon>YemekDuzenle.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="YemekDuzenle.aspx.designer.cs">
+      <DependentUpon>YemekDuzenle.aspx</DependentUpon>
     </Compile>
     <Compile Include="Yemekler.aspx.cs">
       <DependentUpon>Yemekler.aspx</DependentUpon>

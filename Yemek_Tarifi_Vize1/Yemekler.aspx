@@ -65,7 +65,7 @@
                                 <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/icon/delete.png" Width="30px" /></a>
                         </td>
                         <td class="auto-style4">
-                            <a href="KategoriDuzenle.aspx?Kategoriid=<%# Eval("Kategoriid") %>">
+                            <a href="YemekDuzenle.aspx?Yemekid=<%# Eval("Yemekid") %>">
                                 <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/icon/update.png" Width="30px" /></a>
                         </td>
                     </tr>
