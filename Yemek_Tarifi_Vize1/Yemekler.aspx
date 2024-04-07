@@ -33,6 +33,9 @@
         .auto-style9 {
             background-color: #CCCCCC;
         }
+        .auto-style10 {
+            text-align: center;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -79,7 +82,7 @@
                 <td class="auto-style8">
                     <asp:Button ID="Button4" runat="server" Height="30px" Text="-" Width="30px" OnClick="Button4_Click" />
                 </td>
-                <td>Kategori Ekleme</td>
+                <td>Yemek Ekleme</td>
             </tr>
         </table>
     </asp:Panel>
@@ -90,22 +93,39 @@
                 <td>&nbsp;</td>
             </tr>
             <tr>
-                <td>Kategori Ad:</td>
+                <td>Yemek Ad:</td>
                 <td>
-                    <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
+                    <asp:TextBox ID="TextBox1" runat="server" Width="300px"></asp:TextBox>
                 </td>
             </tr>
             <tr>
-                <td>Kategori Icon:</td>
+                <td>Malzemeler:</td>
                 <td>
-                    <asp:FileUpload ID="FileUpload1" runat="server" />
+                    <asp:TextBox ID="TextBox2" runat="server" Height="200px" TextMode="MultiLine" Width="300px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>Yemek Tarifi:</td>
+                <td>
+                    <asp:TextBox ID="TextBox3" runat="server" Height="200px" TextMode="MultiLine" Width="300px"></asp:TextBox>
+                </td>
+            </tr>
+            <tr>
+                <td>Kategori:</td>
+                <td>
+                    <asp:DropDownList ID="DropDownList1" runat="server" Width="300px">
+                    </asp:DropDownList>
                 </td>
             </tr>
             <tr>
                 <td>&nbsp;</td>
-                <td>
+                <td class="auto-style10">
                     <asp:Button ID="btnekle" runat="server" CssClass="fb8" Text="EKLE" />
                 </td>
+            </tr>
+            <tr>
+                <td>&nbsp;</td>
+                <td class="auto-style10">&nbsp;</td>
             </tr>
         </table>
     </asp:Panel>

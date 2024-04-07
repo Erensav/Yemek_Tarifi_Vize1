@@ -23,6 +23,15 @@ namespace Yemek_Tarifi_Vize1
             DataList1.DataSource = dr;
             DataList1.DataBind();
 
+
+            SqlCommand komut2 = new SqlCommand("Select * From tbl_kategoriler", bgl.baglanti());
+            SqlDataReader dr2 = komut2.ExecuteReader();
+
+            DropDownList1.DataTextField = "KategoriAd";
+            DropDownList1.DataValueField = "Kategoriid";
+
+            DropDownList1.DataSource = dr2;
+            DropDownList1.DataBind();
         }
 
         protected void Button1_Click(object sender, EventArgs e)
