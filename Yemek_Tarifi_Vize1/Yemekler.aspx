@@ -61,7 +61,7 @@
                             <asp:Label ID="Label1" runat="server" Text='<%# Eval("YemekAd") %>'></asp:Label>
                         </td>
                         <td class="auto-style6">
-                            <a href="Kategoriler.aspx?Kategoriid=<%# Eval("Kategoriid") %>&islem=sil">
+                            <a href="Yemekler.aspx?Yemekid=<%# Eval("Yemekid") %>&islem=sil">
                                 <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/icon/delete.png" Width="30px" /></a>
                         </td>
                         <td class="auto-style4">
