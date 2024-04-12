@@ -42,7 +42,7 @@
                         <td style="border-style: double; border-width: medium"><a href="Yemekler.aspx">YEMEKLER </a></td>
                     </tr>
                     <tr>
-                        <td style="border-style: double; border-width: medium">YORUMLAR</td>
+                        <td style="border-style: double; border-width: medium"> <a href="yorumlar.aspx">YORUMLAR </a></td>
                     </tr>
                     <tr>
                         <td style="border-style: double; border-width: medium">MESAJLAR</td>
