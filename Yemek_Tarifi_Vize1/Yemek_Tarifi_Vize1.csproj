@@ -135,10 +135,12 @@
     <Content Include="KategoriDetay.aspx" />
     <Content Include="Kategoriler.aspx" />
     <Content Include="kullanici.css" />
+    <Content Include="mesajlar.aspx" />
     <Content Include="resimler\blog.jpg" />
     <Content Include="resimler\download.jpg" />
     <Content Include="resimler\download.png" />
     <Content Include="resimler\images.jpg" />
+    <Content Include="resimler\yazma.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
     <Content Include="Scripts\bootstrap.esm.js" />
@@ -303,6 +305,13 @@
     </Compile>
     <Compile Include="Kullanici.Master.designer.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
+    </Compile>
+    <Compile Include="mesajlar.aspx.cs">
+      <DependentUpon>mesajlar.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="mesajlar.aspx.designer.cs">
+      <DependentUpon>mesajlar.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="sqlsinif.cs" />
