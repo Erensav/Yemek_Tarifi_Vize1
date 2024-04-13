@@ -43,12 +43,12 @@
                             </strong>
                         </td>
                         <td class="auto-style9">
-                            <a href="Kategoriler.aspx?Kategoriid=<%#Eval("Kategoriid") %>">
+                            <a href="MesajDetay.aspx?Mesajid=<%#Eval("Mesajid") %>">
                                 <asp:Image ID="Image2" runat="server" Height="30px" ImageUrl="~/resimler/yazma.jpg" Width="30px" /></a>
                         </td>
 
-                        <asp:Image ID="Image3" runat="server" Height="30px" ImageUrl="~/resimler/yazma.jpg" Width="30px" />
-                        </a></td>
+                        
+                        
                     </tr>
                 </table>
             </ItemTemplate>

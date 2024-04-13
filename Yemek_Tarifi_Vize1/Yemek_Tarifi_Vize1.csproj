@@ -136,6 +136,7 @@
     <Content Include="KategoriDetay.aspx" />
     <Content Include="Kategoriler.aspx" />
     <Content Include="kullanici.css" />
+    <Content Include="MesajDetay.aspx" />
     <Content Include="mesajlar.aspx" />
     <Content Include="resimler\blog.jpg" />
     <Content Include="resimler\download.jpg" />
@@ -314,6 +315,13 @@
     </Compile>
     <Compile Include="Kullanici.Master.designer.cs">
       <DependentUpon>Kullanici.Master</DependentUpon>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MesajDetay.aspx.designer.cs">
+      <DependentUpon>MesajDetay.aspx</DependentUpon>
     </Compile>
     <Compile Include="mesajlar.aspx.cs">
       <DependentUpon>mesajlar.aspx</DependentUpon>
