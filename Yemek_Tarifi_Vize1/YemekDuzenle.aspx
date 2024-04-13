@@ -43,5 +43,11 @@
                 <asp:Button ID="Button1" runat="server" OnClick="Button1_Click" Text="Guncelle" />
             </td>
         </tr>
+        <tr>
+            <td>&nbsp;</td>
+            <td class="auto-style3">
+                <asp:Button ID="Button2" runat="server" OnClick="Button2_Click" Text="Gunun Yemegi Sec" Width="185px" />
+            </td>
+        </tr>
     </table>
 </asp:Content>

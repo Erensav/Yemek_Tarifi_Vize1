@@ -48,7 +48,7 @@
                         <td style="border-style: double; border-width: medium"><a href="mesajlar.aspx">MESAJLAR</a></td>
                     </tr>
                     <tr>
-                        <td style="border-style: double; border-width: medium">GUNUN YEMEGI</td>
+                        <td style="border-style: double; border-width: medium"><a href="GununYemegiAdmin.aspx">GUNUN YEMEGI</a></td>
                     </tr>
                     <tr>
                         <td style="border-style: double; border-width: medium">ONERILER</td>
