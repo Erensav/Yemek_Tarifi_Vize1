@@ -23,10 +23,10 @@
         <table class="auto-style1">
             <tr>
                 <td class="auto-style7">
-                    <asp:Button ID="Button1" runat="server" Height="30px" Text="+" Width="30px" />
+                    <asp:Button ID="Button1" runat="server" Height="30px" Text="+" Width="30px" OnClick="Button1_Click" />
                 </td>
                 <td class="auto-style8">
-                    <asp:Button ID="Button2" runat="server" Height="30px" Text="-" Width="30px" />
+                    <asp:Button ID="Button2" runat="server" Height="30px" Text="-" Width="30px" OnClick="Button2_Click" />
                 </td>
                 <td>Mesaj Listesi</td>
             </tr>

@@ -127,6 +127,7 @@
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="gununyemegi.aspx" />
+    <Content Include="GununYemegiAdmin.aspx" />
     <Content Include="hakkimizda.aspx" />
     <Content Include="icon\delete.png" />
     <Content Include="icon\update.png" />
@@ -140,6 +141,7 @@
     <Content Include="resimler\download.jpg" />
     <Content Include="resimler\download.png" />
     <Content Include="resimler\images.jpg" />
+    <Content Include="resimler\secim.png" />
     <Content Include="resimler\yazma.jpg" />
     <Content Include="Scripts\bootstrap.bundle.js" />
     <Content Include="Scripts\bootstrap.bundle.min.js" />
@@ -263,6 +265,13 @@
     </Compile>
     <Compile Include="gununyemegi.aspx.designer.cs">
       <DependentUpon>gununyemegi.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="GununYemegiAdmin.aspx.designer.cs">
+      <DependentUpon>GununYemegiAdmin.aspx</DependentUpon>
     </Compile>
     <Compile Include="hakkimizda.aspx.cs">
       <DependentUpon>hakkimizda.aspx</DependentUpon>

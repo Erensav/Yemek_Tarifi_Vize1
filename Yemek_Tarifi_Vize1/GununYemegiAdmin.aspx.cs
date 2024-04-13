@@ -7,26 +7,26 @@ using System.Web.UI.WebControls;
 using System.Data.SqlClient;
 namespace Yemek_Tarifi_Vize1
 {
-    public partial class mesajlar : System.Web.UI.Page
+    public partial class GununYemegiAdmin : System.Web.UI.Page
     {
-        sqlsinif bgl = new sqlsinif();
+        sqlsinif bgl=new sqlsinif();
         protected void Page_Load(object sender, EventArgs e)
         {
             Panel2.Visible = false;
-            SqlCommand komut = new SqlCommand("Select * From tbl_mesajlar", bgl.baglanti());
+            SqlCommand komut = new SqlCommand("Select * From tbl_yemekler", bgl.baglanti());
             SqlDataReader dr = komut.ExecuteReader();
             DataList1.DataSource = dr;
             DataList1.DataBind();
         }
 
-        protected void Button2_Click(object sender, EventArgs e)
-        {
-            Panel2.Visible=false;
-        }
-
         protected void Button1_Click(object sender, EventArgs e)
         {
-            Panel2.Visible=true;
+            Panel2.Visible = false;
+        }
+
+        protected void Button1_Click1(object sender, EventArgs e)
+        {
+            Panel2.Visible = true;
         }
     }
 }
