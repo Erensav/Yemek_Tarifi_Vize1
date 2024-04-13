@@ -32,7 +32,7 @@
                 </tr>
                 <tr>
                     <td>
-                        <asp:Image ID="Image1" runat="server" Height="149px" ImageUrl="~/resimler/download.png" Width="418px" />
+                        <asp:Image ID="Image1" runat="server" Height="149px" ImageUrl='<%# Eval("YemekResim") %>' Width="418px" />
                     </td>
                 </tr>
                 <tr>

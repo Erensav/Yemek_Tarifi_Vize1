@@ -4,6 +4,9 @@
         .auto-style3 {
             text-align: center;
         }
+        .auto-style4 {
+            text-align: right;
+        }
     </style>
 </asp:Content>
 <asp:Content ID="Content2" ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
@@ -13,28 +16,34 @@
             <td>&nbsp;</td>
         </tr>
         <tr>
-            <td>Yemek Adi:</td>
+            <td class="auto-style4"><strong>Yemek Adi:</strong></td>
             <td>
                 <asp:TextBox ID="TextBox1" runat="server" Width="250px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td>Malzemeler:</td>
+            <td class="auto-style4"><strong>Malzemeler:</strong></td>
             <td>
                 <asp:TextBox ID="TextBox2" runat="server" Height="100px" TextMode="MultiLine" Width="250px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td>Tarif:</td>
+            <td class="auto-style4"><strong>Tarif:</strong></td>
             <td>
                 <asp:TextBox ID="TextBox3" runat="server" Height="200px" TextMode="MultiLine" Width="250px"></asp:TextBox>
             </td>
         </tr>
         <tr>
-            <td>Kategori:</td>
+            <td class="auto-style4"><strong>Kategori:</strong></td>
             <td>
                 <asp:DropDownList ID="DropDownList1" runat="server" AutoPostBack="True" Width="250px">
                 </asp:DropDownList>
+            </td>
+        </tr>
+        <tr>
+            <td class="auto-style4"><strong>Yemek Resim:</strong></td>
+            <td class="auto-style3">
+                <asp:FileUpload ID="FileUpload1" runat="server" Width="261px" />
             </td>
         </tr>
         <tr>
