@@ -54,7 +54,7 @@
                         <td style="border-style: double; border-width: medium"><a href="Tarifler.aspx">TARIFLER</a></td>
                     </tr>
                     <tr>
-                        <td style="border-style: double; border-width: medium">HAKKIMIZDA</td>
+                        <td style="border-style: double; border-width: medium"><a href="HakkimizdaAdmin.aspx">HAKKIMIZDA</a></td>
                     </tr>
                 </table>
                 <br />
